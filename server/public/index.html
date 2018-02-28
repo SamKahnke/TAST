@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>TAST</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="vendors/jquery.fullPage.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        anchors: ['home', 'ourStory', 'meetTheTeam', 'opportunities', 'donate', 'contactUs'],
+        menu: '#menu',
+        css3: true,
+        recordHistory: false
+      });
+    });
+</script>
+</head>
+<body>
+  <div class="body-container">
+    <div class="header-container">
+      <h1>Teens Against Sex Trafficking</h1>
+      <ul id="menu">
+        <li class="navbar-item" data-menuanchor="home"><a href="#home">Home</a></li>
+        <li class="navbar-item" data-menuanchor="ourStory"><a href="#ourStory">Our Story</a></li>
+        <li class="navbar-item" data-menuanchor="meetTheTeam"><a href="#meetTheTeam">Meet the Team</a></li>
+        <li class="navbar-item" data-menuanchor="opportunities"><a href="#opportunities">Opportunities to Serve</a></li>
+        <li class="navbar-item" data-menuanchor="donate"><a href="#donate">Donate</a></li>
+        <li class="navbar-item" data-menuanchor="contactUs"><a href="#contactUs">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div id="fullpage">
+      <content>
+        <div class="section">
+          <div class="content">
+          </div>
+        </div>
+        <div class="section">
+          <div class="content">
+            <h2>Our Story</h2>
+          </div>
+        </div>
+        <div class="section" >
+          <div class="content">
+            <h2>Meet The Team</h2>
+          </div>
+        </div>
+        <div class="section">
+          <div class="content">
+            <h2>Opportunities to Serve</h2>
+          </div>
+        </div>
+        <div class="section">
+          <div class="content">
+            <h2>Donate</h2>
+          </div>
+        </div>
+        <div class="section">
+          <div class="content">
+            <h2>Contact Us</h2>
+          </div>
+        </div>
+      </content>
+    </div>
+  </div>
+</body>
+</html>
