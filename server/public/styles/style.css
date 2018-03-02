@@ -10,7 +10,7 @@ body {
 
 .body-container, .header-container, .navbar-item,
 .navbar-item a, .navbar-item.active a,
-#menu, .content, .vert-content-container
+#menu, .content, .vert-content-container, .full-img-container
 {
 	display: flex;
 }
@@ -41,6 +41,14 @@ h1, h2
 
 h1 { margin: 10px 0 20px 0; }
 
+p {
+	font-size: 14px;
+	line-height: 135%;
+	letter-spacing: 1px;
+}
+
+li { list-style: none; }
+
 #slogan {
 	font-weight: lighter;
 	font-style: italic;
@@ -49,18 +57,10 @@ h1 { margin: 10px 0 20px 0; }
 	padding: 0 0 6px 0;
 }
 
-p {
-	font-size: 14px;
-	line-height: 135%;
-	letter-spacing: 1px;
-}
-
 .mission-verse {
 	font-style: italic;
 	font-size: 16px;
 }
-
-li { list-style: none; }
 
 .navbar-item {
 	align-items: center;
@@ -139,3 +139,15 @@ li { list-style: none; }
 }
 
 .profile-quote { font-style: italic; }
+
+.full-img-container {
+	padding-bottom: 20px;
+}
+
+#our-story-imgs {
+	justify-content: space-around;
+}
+
+#our-mission-imgs {
+	justify-content: space-between;
+}
