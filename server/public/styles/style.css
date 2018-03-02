@@ -41,7 +41,12 @@ h1, h2
 
 h1 { margin: 10px 0 14px 0; }
 
-h3 { font-weight: normal; }
+h3 {
+	color: var(--highlight-dark-teal);
+	font-weight: normal; 
+	font-size: 18px;
+	margin: 14px 0 0 0;
+}
 
 p {
 	font-size: 14px;
@@ -121,12 +126,6 @@ li { list-style: none; }
 	padding: 0 0 20px 0;
 }
 
-.profile-name {
-	font-size: 18px;
-	margin: 14px 0 0 6px;
-	color: var(--highlight-dark-teal);
-}
-
 .profile-info {
 	font-size: 12px;
 	font-weight: normal;
@@ -135,7 +134,7 @@ li { list-style: none; }
 }
 
 .profile-pic {
-	margin: 0 0 0 14px;
+	margin: 0 0 0 8px;
 	width: 13%;
 	height: 13%;
 	box-shadow: 1px 1px 4px #555;
@@ -159,3 +158,35 @@ li { list-style: none; }
 #our-mission-imgs {
 	justify-content: space-between;
 }
+
+.left-card {
+	margin-right: 10px;
+}
+
+.right-card {
+	margin-left: 10px;
+}
+
+.left-card .content-row, .right-card .content-row {
+	padding: 0;
+}
+
+.opportunity-list, .donate-list {
+	font-style: italic;
+	color: var(--highlight-dark-teal);
+}
+
+.opportunity-list {
+	padding: 0 0 0 20px;
+}
+
+.donate-list {
+	padding: 0 18px 0 24px;
+}
+
+.opportunity-list>li, .donate-list>li {
+	padding: 0 0 20px 0;
+}
+
+
+
