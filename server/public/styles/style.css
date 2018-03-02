@@ -24,7 +24,8 @@ body {
 .body-container {
 	min-width: 1024px;
 	background-image: url("../imgs/DD-Blue-Grunge-Texture-90221-Preview.jpg");
-	background-size: 110%;
+	background-size: 160%;
+
 }
 
 .header-container {
@@ -97,7 +98,7 @@ li { list-style: none; }
 
 .card {
 	box-shadow: 1px 1px 8px #666;
-	background: #D0FFF5;
+	background: #FFF;
 	border-radius: 3px;
 	color: #000;
 	padding: 0 20px 0 20px;
