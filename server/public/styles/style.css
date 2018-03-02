@@ -1,6 +1,5 @@
 :root {
-	/*--bg-orange: #F0D5CB;*/
-	--heading-dark-teal: #023549;
+	--highlight-dark-teal: #023549;
 }
 
 body {
@@ -25,7 +24,6 @@ body {
 	min-width: 1024px;
 	background-image: url("../imgs/DD-Blue-Grunge-Texture-90221-Preview.jpg");
 	background-size: 160%;
-
 }
 
 .header-container {
@@ -36,10 +34,14 @@ body {
 
 h1, h2
 {
-	color: var(--heading-dark-teal);
+	color: var(--highlight-dark-teal);
+	letter-spacing: 3px;
+	font-weight: normal;
 }
 
-h1 { margin: 10px 0 20px 0; }
+h1 { margin: 10px 0 14px 0; }
+
+h3 { font-weight: normal; }
 
 p {
 	font-size: 14px;
@@ -59,14 +61,19 @@ li { list-style: none; }
 
 .mission-verse {
 	font-style: italic;
-	font-size: 16px;
+	font-size: 18px;
+	color: var(--highlight-dark-teal);
+}
+
+#verse {
+	padding: 0 0 0 14px;
 }
 
 .navbar-item {
 	align-items: center;
 	margin: 10px 6px;
 	background: linear-gradient(#FFF, #D8E2DE);
-	border: 1px solid #6CCFBB;
+	border: 1px solid #6CCFA9;
 	-webkit-border-radius: 10px;
     border-radius: 10px;
     box-shadow: 1px 1px 4px #88A;
@@ -75,7 +82,7 @@ li { list-style: none; }
 .navbar-item.active { background: #8CEDD9; }
 
 .navbar-item a {
-	color: var(--heading-dark-teal);
+	color: var(--highlight-dark-teal);
 	font-weight: bold;
 	letter-spacing: 2px;
 	text-decoration: none;
@@ -116,7 +123,8 @@ li { list-style: none; }
 
 .profile-name {
 	font-size: 18px;
-	margin: 12px 0 0 12px;
+	margin: 14px 0 0 6px;
+	color: var(--highlight-dark-teal);
 }
 
 .profile-info {
@@ -141,7 +149,7 @@ li { list-style: none; }
 .profile-quote { font-style: italic; }
 
 .full-img-container {
-	padding-bottom: 20px;
+	padding: 0 0 20px 0;
 }
 
 #our-story-imgs {
